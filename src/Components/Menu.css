@@ -1,0 +1,24 @@
+.Menu_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.Menu_list li {
+  display: flex;
+  text-align: center;
+  justify-content: left;
+  align-items: center;
+  margin: 10px 0px;
+  height: 40px;
+  padding: 2px 0;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+  text-overflow: ellipsis;
+  color: #fff;
+  cursor: pointer;
+}
+.Menu_list li:hover {
+  background: #cccccc;
+  color: #000;
+}
